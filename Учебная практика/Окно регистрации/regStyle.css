@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  max-width: 120rem;
+  max-height: 67.5rem;
+}
+
+main {
+  display: grid;
+  gap: 2.875rem;
+  margin: 4.125rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.125rem;
+  text-align: center;
+}
+
+input {
+  width: 33.25rem;
+  height: 4.625rem;
+  max-width: 33.25rem;
+  padding-left: 1.8125rem;
+  border: none;
+  border-radius: 1.875rem;
+  background: #d9d9d9;
+  font-size: 1.5rem;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input::-moz-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input:-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input::-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input:focus {
+  outline: 2px solid #475569;
+}
+
+input:active {
+  -webkit-transform: scale(0.994);
+      -ms-transform: scale(0.994);
+          transform: scale(0.994);
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+#password {
+  border: none;
+}
+
+#confirm {
+  border: none;
+}
+
+.question {
+  width: 21.25rem;
+  height: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.question p {
+  font-size: 1.25rem;
+}
+.question a {
+  font-size: 1.25rem;
+  -webkit-text-decoration: underline 0.125rem;
+          text-decoration: underline 0.125rem;
+  color: #0369A1;
+  text-underline-offset: 0.25rem;
+}
+
+.register {
+  width: 33.25rem;
+  height: 4.625rem;
+  max-width: 33.25rem;
+  background: #64748B;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 2.8125rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.register:active {
+  -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+          transform: scale(0.98);
+}

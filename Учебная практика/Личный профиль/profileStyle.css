@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 120rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: grid;
+  gap: 7.9375rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+header {
+  width: 120rem;
+  height: 11.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 39.375rem;
+  padding: 3.6875rem 8rem;
+  background-color: #64748B;
+  border-radius: 0 0 1.625rem 1.625rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  width: 45.1875rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.75rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.125rem;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile {
+  width: 73.8125rem;
+  height: 26.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14.375rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circle {
+  width: 20rem;
+  height: 20rem;
+  display: grid;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.box {
+  width: 33.1875rem;
+  height: 19.5rem;
+  display: grid;
+  gap: 2.8125rem;
+}
+.box input {
+  width: 33.1875rem;
+  height: 4.625rem;
+  border: none;
+  background-color: #D9D9D9;
+  padding-left: 1.8125rem;
+  border-radius: 1.875rem;
+  background-image: url(/assets/img/pencil.png);
+  background-repeat: no-repeat;
+  background-position: 477px 19.5px;
+  font-size: 1.5rem;
+}
+
+.history {
+  width: 68.625rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: grid;
+  gap: 2.875rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  padding: 2.75rem 7.75rem;
+  background-color: #64748B;
+  border-radius: 3.125rem;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.history h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}

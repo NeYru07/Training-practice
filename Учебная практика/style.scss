@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+	font-family: "Inter", sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+    width: 120rem;
+    height: 72.1875rem;
+    background: #E5E5E5;
+    color: #000;
+	 cursor: default;
+}
+
+button{
+	cursor: pointer;
+}
+
+.bg-black{
+	width: 120rem;
+	height: 1.5625rem;
+	background-color: #000;
+}
+
+.bg{
+	display: grid;
+	justify-items: center;
+	text-align: center;
+	width: 120rem;
+	height: 64rem;
+	background-size: 100%;
+	background-image: url(./assets/img/HRBG.jpg);
+	background-repeat: no-repeat;
+}
+
+header{
+    width: 120rem;
+    height: 11.1875rem;
+    background: #334155fb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 23.5625rem;
+    padding: 4.1875rem 4.875rem;
+    border-radius: 0 0 1.625rem 1.625rem;
+	 justify-content: space-between;
+
+        nav{
+            width: 53.4375rem;
+            height: 2.625rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 3.125rem;
+            text-align: center;
+            font-size: 1.5rem;
+				color: #fff;
+
+					a{
+						text-decoration: none;
+						color: #fff;
+					}
+        }
+
+        button{
+				width: 7.5rem;
+				height: 2.8125rem;
+				text-align: center;
+				background-color: #ffffff;
+				color: #171717;
+				font-size: 1.75rem;
+				border: none;
+				border-radius: 1.125rem;
+			}
+
+			button:hover{
+				background-color: #ebebeb;
+			}
+
+			button:active{
+				transform: scale(0.97);
+			}
+}
+
+.block1{
+	width: 73.625rem;
+	height: 19.875rem;
+	display: grid;
+	gap: 4.625rem;
+	align-items:center;
+	justify-content: center;
+	justify-items: center;
+
+		.txt{
+			width: 61.125rem;
+			height: 9.75rem;
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			justify-items: center;
+
+				h1{
+					width: 61.125rem;
+					height: 3.625rem;
+					font-size: 3rem;
+					font-weight: 800;
+					text-align: center;
+					color: #E5E5E5;
+				}
+
+				p{
+					width: 41.4375rem;
+					height: 6.125rem;
+					text-align: center;
+					font-size: 2rem;
+					color: #E5E5E5;
+				}
+		}
+
+		.btns{
+			width: 73.625rem;
+			height: 5.5rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 10.875rem;
+
+				.btn1{
+					width: 31.375rem;
+					height: 5.5rem;
+					border-radius: 2.5rem;
+					border: none;
+					color: #fff;
+					background-color: #0369A1;
+					font-size: 2.25rem;
+					font-weight: 600;
+				}
+
+				.btn1:hover{
+					background-color: #2078a7;
+				}
+
+				.btn1:active{
+					transform: scale(0.987);
+				}
+
+				.btn2{
+					width: 31.375rem;
+					height: 5.5rem;
+					border-radius: 2.5rem;
+					border: none;
+					color: #000;
+					background-color: #fff;
+					font-size: 2.25rem;
+					font-weight: 600;
+				}
+
+				.btn2:hover{
+					background-color: #ebebeb;
+				}
+
+				.btn2:active{
+					transform: scale(0.987);
+				}
+		}
+}
+
+.block2{
+	width: 120rem;
+	height: 158.6875rem;
+	display: grid;
+	gap: 7.5rem;
+	padding: 6.25rem;
+	background-color: #E2E8F0;
+	text-align: center;
+
+		h1{
+			font-size: 3rem;
+			font-weight: 600;
+			color: #000;
+		}
+
+		.block21{
+			width: 107.375rem;
+			height: 28.3125rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 9rem;
+			align-items: center;
+			justify-items: center;
+
+				span{
+					width: 34.625rem;
+					height: 22.1875rem;
+					display: grid;
+					text-align: center;
+					background-color: #94A3B8;
+					align-items: center;
+					justify-content: center;
+					border-radius: 1.875rem;
+					font-size: 2.25rem;
+				}
+		}
+		.block22{
+			width: 107.375rem;
+			height: 33rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 9rem;
+			align-items: center;
+			justify-items: center;
+
+				span{
+					width: 35rem;
+					height: 21.125rem;
+					display: grid;
+					text-align: center;
+					background-color: #94A3B8;
+					align-items: center;
+					justify-content: center;
+					border-radius: 1.875rem;
+					font-size: 2.25rem;
+				}
+		}
+		.block23{
+			width: 107.375rem;
+			height: 28.3125rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 9rem;
+			align-items: center;
+			justify-items: center;
+
+				span{
+					width: 36.75rem;
+					height: 21.3125rem;
+					display: grid;
+					text-align: center;
+					background-color: #94A3B8;
+					align-items: center;
+					justify-content: center;
+					border-radius: 1.875rem;
+					font-size: 2.25rem;
+				}
+		}
+		.block24{
+			width: 107.375rem;
+			height: 24.75rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 9rem;
+			align-items: center;
+			justify-items: center;
+
+				span{
+					width: 37.75rem;
+					height: 19.5rem;
+					display: grid;
+					text-align: center;
+					background-color: #94A3B8;
+					align-items: center;
+					justify-content: center;
+					border-radius: 1.875rem;
+					font-size: 2.25rem;
+				}
+		}
+}
+
+.block3{
+	width: 120rem;
+	height: 43.75rem;
+	display: grid;
+	gap: 3.125rem;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+
+		h1{
+			font-size: 6rem;
+		}
+
+		.grid-block{
+			width: 100rem;
+			height: 24.25rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 3.125rem;
+
+				.box{
+					width: 31.25rem;
+					height: 24.25rem;
+					display: grid;
+					text-align: center;
+					align-items: center;
+					justify-content: center;
+					border-radius: 1.25rem;
+					background-color: #BAE6FD;
+					font-size: 3rem;
+				}
+		}
+}
+
+footer{
+	width: 120rem;
+	height: 27.875rem;
+	display: flex;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 73px 70px;
+	justify-content: space-between;
+	gap: 11.25rem;
+	background-color: #262626;
+	color: #fff;
+
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+
+		.contacts{
+			width: 23.25rem;
+			height: 9.875rem;
+			display: grid;
+			gap: 1.125rem;
+			font-size: 2rem;
+
+			h3{
+				font-size: 2.25rem;
+				font-weight: bold;
+			}
+		}
+		.address{
+			width: 33.0625rem;
+			height: 18.75rem;;
+			display: grid;
+			gap: 1.125rem;
+			font-size: 2rem;
+
+			h3{
+				font-size: 2.25rem;
+				font-weight: bold;
+			}
+		}
+		.questions{
+			width: 32.125rem;
+			height: 18.75rem;
+			display: grid;
+			gap: 1.125rem;
+			font-size: 2rem;
+
+			span{
+				display: grid;
+				gap: 1.125rem;
+			}
+
+			h3{
+				font-size: 2.25rem;
+				font-weight: bold;
+			}
+
+			p{
+				font-size: 2.25rem;
+				font-weight: bold;
+				cursor: pointer;
+				text-decoration: underline 0.0625rem;
+				text-underline-offset: 0.4375rem;
+			}
+		}
+}

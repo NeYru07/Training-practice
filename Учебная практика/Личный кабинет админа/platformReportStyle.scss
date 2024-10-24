@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+	font-family: "Inter", sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	width: 120rem;
+	height: max-content;
+}
+
+.block1{
+	width: 120rem;
+	height: max-content;
+	display: grid;
+	gap: 6.0625rem;
+	justify-items: center
+}
+
+header{
+	width: 120rem;
+	height: 11.875rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 400px;
+	padding: 3.6875rem 8rem;
+	background-color: #64748B;
+	border-radius: 0 0 1.625rem 1.625rem;
+	align-items: center;
+}
+
+nav{
+	width: 1230px;
+	height: 4rem;
+	display: flex;
+	gap: 3.125rem;
+	text-align: center;
+	align-items: center;
+	font-size: 2.125rem;
+
+	a{
+		background-image: linear-gradient(currentColor, currentColor);
+		background-repeat: no-repeat;
+		background-size: 0% 2px;
+		transition: background-size .3s;
+		background-position: 0% 100%;
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	a:hover {
+		background-size: 100% 2px;
+  }
+}
+
+
+.table{
+	width: 103.125rem;
+	height: max-content;
+	font-size: 2rem;
+	align-items: center;
+	justify-items: center;
+
+	p{
+		font-size: 3rem;
+		font-weight: 800;
+		margin-bottom: 2.375rem;
+	}
+}
+
+table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+ }
+
+th{
+	font-size: 2.25rem;
+	padding: 0.25rem;
+}
+
+td{
+	padding: 0.25rem;
+}
+
+.block2{
+	width: 120rem;
+	height: 67.9375rem;
+	display: grid;
+	gap: 8.5625rem;
+	justify-items: center;
+	margin-top: 18.75rem;
+
+	h1{
+		font-size: 4rem;
+		font-weight: 900;
+	}
+}

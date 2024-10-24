@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  max-width: 120rem;
+  max-height: 67.5rem;
+}
+
+main {
+  display: grid;
+  gap: 2.875rem;
+  margin: 4.125rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.125rem;
+  text-align: center;
+  cursor: default;
+}
+
+input {
+  width: 33.25rem;
+  height: 4.625rem;
+  max-width: 33.25rem;
+  padding-left: 1.8125rem;
+  border: none;
+  border-radius: 1.875rem;
+  background: #d9d9d9;
+  font-size: 1.5rem;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input::-moz-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input:-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input::-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: #6d6d6d;
+}
+
+input:focus {
+  outline: 2px solid #475569;
+}
+
+input:active {
+  -webkit-transform: scale(0.994);
+      -ms-transform: scale(0.994);
+          transform: scale(0.994);
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+button {
+  width: 33.25rem;
+  height: 4.625rem;
+  max-width: 33.25rem;
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+  border-radius: 2.8125rem;
+  background: #64748B;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.block {
+  width: 33.25rem;
+  height: 6.9375rem;
+  display: grid;
+  gap: 0.4375rem;
+}
+
+.quest {
+  width: 29.3125rem;
+  height: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  margin: 0 auto;
+}
+.quest a {
+  font-size: 1.25rem;
+  color: #38BDF8;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  text-underline-offset: 0.3125rem;
+}
+.quest .reg {
+  color: #0369A1;
+}
+
+#password {
+  border: none;
+}
+
+#email {
+  border: none;
+}
+
+p {
+  font-size: 1rem;
+}

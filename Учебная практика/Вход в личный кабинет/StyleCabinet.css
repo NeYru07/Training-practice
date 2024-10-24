@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 120rem;
+  height: 56.25rem;
+  background-color: #E2E8F0;
+  cursor: default;
+  display: grid;
+  gap: 3.75rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+main {
+  width: 82.0625rem;
+  height: 27.375rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5.75rem;
+}
+main .box {
+  width: 23.5625rem;
+  height: 27.375rem;
+  background-color: #0284C7;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5.5rem 1.625rem 3.125rem;
+  border-radius: 0.9375rem;
+  -webkit-box-shadow: 4px 4px 8px rgba(46, 46, 46, 0.6862745098);
+          box-shadow: 4px 4px 8px rgba(46, 46, 46, 0.6862745098);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+main .box .block1 {
+  width: 17.25rem;
+  height: 20.25rem;
+  display: grid;
+  gap: 3.8125rem;
+}
+main .box .block1 .block2 {
+  width: 17.25rem;
+  height: 10.9375rem;
+  display: grid;
+  gap: 2.4375rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+main .box .block1 button {
+  width: 17.25rem;
+  height: 5.5rem;
+  border-radius: 0.9375rem;
+  background-color: #fff;
+  color: #0284C7;
+  font-size: 2rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+main .box .block1 button:active {
+  -webkit-transform: scale(0.989);
+      -ms-transform: scale(0.989);
+          transform: scale(0.989);
+}
+
+.box:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}

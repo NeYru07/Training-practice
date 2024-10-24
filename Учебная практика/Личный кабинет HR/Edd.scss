@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+	font-family: "Inter", sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	width: 120rem;
+	height: max-content;
+	display: grid;
+	gap: 6.875rem;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+header{
+	width: 120rem;
+	height: 11.875rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 39.375rem;
+	padding: 3.6875rem 8rem;
+	background-color: #64748B;
+	border-radius: 0 0 1.625rem 1.625rem;
+	align-items: center;
+}
+
+nav{
+	width: 45.1875rem;
+	height: 4rem;
+	display: flex;
+	gap: 3.75rem;
+	text-align: center;
+	align-items: center;
+	font-size: 2.125rem;
+
+	a{
+		background-image: linear-gradient(currentColor, currentColor);
+		background-repeat: no-repeat;
+		background-size: 0% 2px;
+		transition: background-size .3s;
+		background-position: 0% 100%;
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	a:hover {
+		background-size: 100% 2px;
+  }
+}
+
+h1{
+	font-size: 2.125rem;
+	font-weight: 500;
+}
+
+.block{
+	width: 33.1875rem;
+	height: 39.3125rem;
+	display: grid;
+	gap: 3.125rem;
+	margin-bottom: 9.375rem;
+
+	input{
+		width: 33.1875rem;
+		height: 4.625rem;
+		padding-left: 1.8125rem;
+		background-color: #d9d9d9;
+		border-radius: 1.875rem;
+		border: none;
+		font-size: 1.5rem;
+	}
+
+	.big{
+		height: 16.6875rem;
+	}
+}
+
+button{
+	width: 33.1875rem;
+	height: 4.625rem;
+	background-color: #64748B;
+	color: #fff;
+	font-size: 2.25rem;
+	font-weight: 700;
+	border: none;
+	border-radius: 1.875rem;
+}
